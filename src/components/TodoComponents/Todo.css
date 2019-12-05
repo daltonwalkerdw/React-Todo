@@ -1,0 +1,74 @@
+*{
+    background-color: #44888a;
+}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+   
+  }
+  .completed {
+    text-decoration: line-through;
+    font-size: 2rem;
+    color: white;
+    padding: 5px;
+    background-color: goldenrod;
+    margin: 20px;
+    border: 1px solid black;
+  }
+  .form{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .input{
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+  }
+  .myButton {
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:16px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.css-input {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.todo{
+    font-size: 2rem;
+    color: white;
+    padding: 5px;
+    background-color: goldenrod;
+    margin: 20px;
+    border: 1px solid black;
+}
+.todoList{
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px;
+    flex-wrap: wrap;
+}
